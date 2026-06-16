@@ -3,10 +3,10 @@ import "./App.css";
 
 // API_BASE_URL : 통신 할 백엔드 주소
 // 클라우드 용
-// const API_BASE_URL = "/api";
+const API_BASE_URL = "/api";
 
 // 로컬 테스트 용
-const API_BASE_URL = "http://localhost:3000/api";
+//const API_BASE_URL = "http://localhost:3000/api";
 
 function App() {
   const [diaries, setDiaries] = useState([]);
